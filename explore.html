@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Chuks Kitchen Menu</title>
+     <link rel="stylesheet" href="explore.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  </head>
+ <body>
+     <!-- NAVBAR -->
+     <header class="navbar">
+     <div class="logo">Chuks Kitchen</div>
+      <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="#">My Orders</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+    </nav>
+
+    <button class="login-btn"><a href="Signup.html">Login</a></button>
+
+    <div class="menu-toggle">&#9776;</div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Chuks Kitchen</h1>
+      <p>Chuks  Kitchen Nigerian Home Cooking, 4.8  (1.2k)</p>
+    </div>
+  </section>
+     <div class="container">
+     <!-- SIDEBAR -->
+     <aside class="sidebar">
+     <h3>Menu Categories</h3>
+        <ul>
+            <li class="menu-link active" data-target="popular">Popular</li>
+            <li class="menu-link" data-target="jollof">Jollof Rice & Entrees</li>
+            <li class="menu-link" data-target="swallow">Swallow & Soups</li>
+            <li class="menu-link" data-target="grills">Grills & Sides</li>
+            <li class="menu-link" data-target="beverages">Beverages</li>
+            <li class="menu-link" data-target="desserts">Desserts</li>
+        </ul>
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+        <!-- POPULAR -->
+        <section id="popular" class="menu-section active-section">
+            <h2>Popular</h2>
+            <div class="card-grid">
+
+                <!-- CARD -->
+                <div class="card">
+                    <img src="Assets/jollof.png">
+                    <h4>Jollof Rice & Fried Chicken</h4>
+                    <p>Our signature jollof rice with crispy chicken & plantain.</p>
+                    <div class="card-bottom">
+                        <span>₦3,500</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/eba.png">
+                    <h4>Eba & Egusi Soup</h4>
+                    <p>Rich egusi soup served with soft eba.</p>
+                    <div class="card-bottom">
+                        <span>₦3,500</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/fufu.png">
+                    <h4>Pounded Yam & Edikaikong</h4>
+                    <p>Traditional pounded yam with rich leafy soup.</p>
+                    <div class="card-bottom">
+                        <span>₦3,800</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/snail.png">
+                    <h4>Peppered Snail</h4>
+                    <p>Spicy and savory peppered snail.</p>
+                    <div class="card-bottom">
+                        <span>₦2,500</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/fish.png">
+                    <h4>Grilled Tilapia Fish</h4>
+                    <p>Whole grilled tilapia seasoned with spices.</p>
+                    <div class="card-bottom">
+                        <span>₦4,500</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/rice.png">
+                    <h4>Jollof Rice & Fried Chicken</h4>
+                    <p>Our signature jollof rice with crispy chicken.</p>
+                    <div class="card-bottom">
+                        <span>₦3,500</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- JOLLOF SECTION -->
+        <section id="jollof" class="menu-section">
+            <h2>Jollof Rice & Entrees</h2>
+            <div class="card-grid">
+
+                <div class="card">
+                    <img src="Assets/jollofandfish.png">
+                    <h4>Jollof Rice & Smoked Fish</h4>
+                    <p>Flavorful jollof rice with perfectly smoked fish.</p>
+                    <div class="card-bottom">
+                        <span>₦3,500</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/jollof.png">
+                    <h4>Party Jollof Rice (Veg)</h4>
+                    <p>Vegetarian party jollof full of rich flavors.</p>
+                    <div class="card-bottom">
+                        <span>₦2,800</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SWALLOW -->
+        <section id="swallow" class="menu-section">
+            <h2>Swallow & Soups</h2>
+            <div class="card-grid">
+
+                <div class="card">
+                    <img src="Assets/swallow.png">
+                    <h4>Amala with Gbegiri & Ewedu</h4>
+                    <p>Classic amala served with gbegiri and ewedu.</p>
+                    <div class="card-bottom">
+                        <span>₦3,100</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Assets/fufu.png">
+                    <h4>Fufu & Okra Soup</h4>
+                    <p>Light fufu served with fresh okra soup.</p>
+                    <div class="card-bottom">
+                        <span>₦3,300</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GRILLS -->
+        <section id="grills" class="menu-section">
+            <h2>Grills & Sides</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="Assets/suya.png">
+                    <h4>Beef Suya</h4>
+                    <p>Spicy grilled beef suya with onions.</p>
+                    <div class="card-bottom">
+                        <span>₦2,000</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BEVERAGES -->
+        <section id="beverages" class="menu-section">
+            <h2>Beverages</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="Assets/jollof.png">
+                    <h4>Zobo Drink</h4>
+                    <p>Fresh homemade zobo.</p>
+                    <div class="card-bottom">
+                        <span>₦800</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DESSERTS -->
+        <section id="desserts" class="menu-section">
+            <h2>Desserts</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="Assets/puffpuff.png">
+                    <h4>Chocolate Cake</h4>
+                    <p>Soft and rich chocolate cake slice.</p>
+                    <div class="card-bottom">
+                        <span>₦1,500</span>
+                        <button class="add-btn"><i class="fi fi-rr-plus-small"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</div>
+<!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-container">
+
+          <div class="footer-col1">
+            <h2 class="footer-logo">Chuks Kitchen</h2>
+            <p>
+              Bringing the authentic flavors of Nigerian home cooking to your
+              table, with passion and care.
+            </p>
+          </div>
+
+          <div class="footer-col2">
+            <h4>Quick Links</h4>
+            <ul>
+              <li>Home</li>
+              <li>Explore</li>
+              <li>My Order</li>
+              <li>Account</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+
+          <div class="footer-col3">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>+234 801 234 5678</li>
+              <li>hello@chukskitchen.com</li>
+              <li>123 Tasto Blvd, Lagos, Nigeria</li>
+            </ul>
+          </div>
+
+          <div class="footer-col4">
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>LinkedIn</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <div><p>&copy; 2020 Lift Media. All rights reserved.</p></div>
+            <div class="scroll-container">
+              <button class="scroll-top" id="scrollTopBtn">
+              <span><i class="fi fi-rr-arrow-up"></i></span>
+             </button>
+           </div>
+         </div>
+       </footer>
+<script src="javascript/explore.js"></script>
+<script src="javascript/index.js"></script>
+</body>
+</html>
