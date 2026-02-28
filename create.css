@@ -335,7 +335,7 @@ margin-top: 10px;
 cursor: pointer;
 text-align: center;
 }
-.login-btn p {
+button[type="submit"] {
 opacity: 1;
 font-family: Inter;
 font-weight: 600;

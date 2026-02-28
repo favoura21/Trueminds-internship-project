@@ -302,12 +302,6 @@ body{
   font-weight:600;
   cursor:pointer;
 }
-
-.login-btn a{
-  color:white;
-  text-decoration:none;
-}
-
 .login-btn1{ 
   width:100%; 
   height: 40px; 

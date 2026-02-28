@@ -36,18 +36,18 @@
             <h2>Chuks Kitchen</h2>
             <h3>Create your Account</h3>
 
-            <form>
+           <form action="home.html">
               <div class="input-group">
                  <label for="email">Email Address</label>
                  <span class="input-wrapper">
-                     <input type="email" id="email" placeholder="Enter email" />
+                     <input type="email" id="email" placeholder="Enter email" required />
                      <i class="fi fi-rr-envelope"></i>
                  </span>
               </div>
               <div class="input-group">
                  <label for="phone">Phone Number</label>
                  <span class="input-wrapper">
-                     <input type="tel" id="phone" placeholder="Enter phone number" />
+                     <input type="tel" id="phone" placeholder="Enter phone number" required />
                      <i class="fi fi-rr-phone-call"></i>
                  </span>
              </div>
@@ -56,7 +56,7 @@
                  <label>Password</label>
                  <div class="input-wrapper">
                      <i class="fi fi-rr-lock"></i>
-                     <input type="password" id="password" placeholder="QWE123#" />
+                     <input type="password" id="password" placeholder="QWE123#"required />
                      <i class="fi fi-rr-eye" id="togglePassword"></i>
                   </div>
                   </div>
@@ -65,7 +65,7 @@
                   <label>Confirm password</label>
                   <div class="input-wrapper">
                      <i class="fi fi-rr-lock"></i>
-                     <input type="password" id="confirmPassword" placeholder="QWE123#" />
+                     <input type="password" id="confirmPassword" placeholder="QWE123#" required/>
                       <i class="fi fi-rr-eye right-icon" id="toggleConfirm"></i>
                   </div>
                 </div>  
@@ -73,13 +73,13 @@
              <div class="terms">
                  <label for="agree">
                     <span><p>
-                     <input type="checkbox" id="agree" />
+                     <input type="checkbox" id="agree" required />
                      I agree to the 
                      <a href="#">Terms & Conditions</a> and 
                      <a href="#">Privacy Policy</a></p></span>
                  </label>
              </div>
-             <button class="login-btn"><p><a href="home.html">Continue</a></p></button>
+            <button type="submit" class="login-btn">Continue</button>
              <button class="login-btn1"><p>Or Continue With</p></button>
           </form>
             <!-- Google Button -->

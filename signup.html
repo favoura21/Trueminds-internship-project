@@ -36,11 +36,11 @@
             <h2>Chuks Kitchen</h2>
             <h3>Login your Account</h3>
 
-            <form>
+            <form action="home.html">
               <div class="input-group">
   <label for="email">Email Address</label>
   <span class="input-wrapper">
-    <input type="email" id="email" placeholder="Enter email" />
+    <input type="email" id="email" placeholder="Enter email" required/>
     <i class="fi fi-rr-envelope"></i>
   </span>
 </div>
@@ -48,11 +48,11 @@
 <div class="input-group">
   <label for="password">Password</label>
   <span class="input-wrapper">
-    <input type="password" id="password" placeholder="Enter password" />
+    <input type="password" id="password" placeholder="Enter password" required/>
     <i class="fi fi-rr-lock"></i>
     <i id="togglePassword" class="fi fi-rr-eye"></i>
   </span>
-</div>          <button class="login-btn"><p><a href="home.html">Login</a></p></button>
+</div>          <button type="submit" class="login-btn">Continue</button>
                  <button class="login-btn1"><p>Or Continue With</p></button>
               
             </form>
