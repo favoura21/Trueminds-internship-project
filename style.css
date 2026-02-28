@@ -452,7 +452,20 @@ body{
   cursor: pointer;
   transition: 0.3s;
 }
-
+.footer-col2 li a{
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 26px;
+  opacity: 0.75;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  color: var(--background-color);
+}
+.footer li a:hover {
+  opacity: 1;
+  color: var(--primary-color);
+}
 .footer li:hover {
   opacity: 1;
   color: var(--primary-color);
